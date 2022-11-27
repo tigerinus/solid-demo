@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
   "dependencies": {
     "@inrupt/solid-client": "^1.23.3",
     "@inrupt/solid-client-authn-browser": "^1.12.3",
